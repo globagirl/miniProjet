@@ -1,0 +1,21 @@
+Etapes à suivre dans le mini-projet python
+
+-Charger un dataset
+Analyser le contenu du dataset :
+     liste et type des attributs (feaures),
+     valeurs minimales/maximales,
+     moyenne,
+     etc
+Analyser la correlation entre les features et l'attribut de classe (dans le cas d'un système de classification ou de regression)
+Afficher et traiter (transformer) les valeurs manquantes
+Supprimer les attributes inutiles / création des dummy variables / discrétisation des attributs si c'est nécessaire
+Ajouter quelques graphes pour visualiser les données et mieux analyser le dataset.
+
+#Followed steps:
+>pip install jupyterlab
+
+>pip install pandas  ##
+>pip install openpyxl  ##Missing optional dependency ‘xlrd’ when using read_excel
+>pip install --upgrade pip
+https://datatofish.com/read_excel/
+
