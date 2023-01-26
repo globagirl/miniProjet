@@ -5,7 +5,6 @@ from functions.graphs import *
 from functions.traitement import *
 
 
-
 def charger_dataset(path):  # Charger un dataset
     print("chargement dataset ..")
     dataset = pd.read_excel(path)  # charger dataset file

@@ -1,11 +1,11 @@
 import pandas as pd
-import numpy as np
+# import numpy as np
 
 
 def affiche_details(dataset):
     print('Attributes list and their types: ', dataset.dtypes)  # liste et type des attributs
     print("Statistique: ", dataset.describe())  # valeurs minimales/maximales, moyenne, etc
-    #Extra:
+    # Extra:
     print("Info: ", dataset.info())  # information about the data
     print("Attributes: ", dataset.columns)  # column headers
     print("Size(rows,columns): ", dataset.shape)
