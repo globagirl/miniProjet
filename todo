@@ -1,0 +1,16 @@
+Etapes à suivre dans le mini-projet python
+
+-Charger un dataset
+Analyser le contenu du dataset :
+     liste et type des attributs (feaures),
+     valeurs minimales/maximales,
+     moyenne,
+     etc
+Analyser la correlation entre les features et l'attribut de classe (dans le cas d'un système de classification ou de regression)
+https://www.geeksforgeeks.org/python-pandas-dataframe-corr/
+
+Afficher et traiter (transformer) les valeurs manquantes
+Supprimer les attributes inutiles / création des dummy variables
+https://www.educative.io/answers/how-to-convert-a-pandas-objects-variables-to-dummy-variables?fbclid=IwAR2-Ch7EcTa_XXaAMGdW9pEbxhay89CcEKleE7Hs0EFCfQIDcQyGEsMEv2Q
+/ discrétisation des attributs si c'est nécessaire
+Ajouter quelques graphes pour visualiser les données et mieux analyser le dataset.

@@ -1,28 +1,10 @@
-Etapes à suivre dans le mini-projet python
 
--Charger un dataset
-Analyser le contenu du dataset :
-     liste et type des attributs (feaures),
-     valeurs minimales/maximales,
-     moyenne,
-     etc
-Analyser la correlation entre les features et l'attribut de classe (dans le cas d'un système de classification ou de regression)
-https://www.geeksforgeeks.org/python-pandas-dataframe-corr/
-
-Afficher et traiter (transformer) les valeurs manquantes
-Supprimer les attributes inutiles / création des dummy variables
-https://www.educative.io/answers/how-to-convert-a-pandas-objects-variables-to-dummy-variables?fbclid=IwAR2-Ch7EcTa_XXaAMGdW9pEbxhay89CcEKleE7Hs0EFCfQIDcQyGEsMEv2Q
-/ discrétisation des attributs si c'est nécessaire
-Ajouter quelques graphes pour visualiser les données et mieux analyser le dataset.
-
-#Followed steps:
+#Some notes
 >pip install jupyterlab
-
 >pip install pandas  ##
 >pip install openpyxl  ##Missing optional dependency ‘xlrd’ when using read_excel
 >pip install --upgrade pip
 https://datatofish.com/read_excel/
-
 
 http://www.python-simple.com/python-pandas/modif-dataframes.php?fbclid=IwAR0okWK3wKzTiGG-QtVhZgwcxWfDw5tsb30dHJYiq_aPYGWsHn0ME5XVR8k
 https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
